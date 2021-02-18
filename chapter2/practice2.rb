@@ -26,5 +26,7 @@ tax = total * 0.08
 puts tax
 
 # 2-7
+# traceback => undefined local variable or method 't'
 total = 300 * 2
-puts total
+puts total # puts t からtotalに変更
+

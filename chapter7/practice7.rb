@@ -102,3 +102,8 @@ def order(drink)
 end
 drink = "コーヒー"
 order(drink)
+
+<!--<%= form_with url: search_path, method: :get, local: true do |f| %>-->
+  <!--  <%= f.attachment_field :search_image, placeholder: "画像" %>  #　:search_image勝手に作った仮置きできないか-->
+  <!--  <%= f.submit '検索', name: nil %>-->
+  <!--<% end %>-->
